@@ -29,13 +29,12 @@ shoes = 0.5(shoes) // div by 2 would make no sense and make it harder to underst
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
 
-
-
-/* 
-  Their money put together would be f
-*/
+let twinsCut = (cut * 2) * 4
+let shoesBought = Math.floor(twinsCut / shoes)
 
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
+
+let gamesBought = Math.floor(cut / game)
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
 
