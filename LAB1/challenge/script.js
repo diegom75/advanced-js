@@ -15,27 +15,25 @@ let shoes = 89.78;
 
 // 1. If divided evenly, how much would each sibling get for the week?
 
-/* 
-    The siblings would get 43 dollars for the week.
-*/
+let cut = (weeklyAllowance / 3).toFixed(2);
 
 // 2. How many games can Jordan buy with their cut?
 
-/* 
-    Jordan is able to buy 2 games with their cut
-*/
+let gameCount = Math.floor(cut / game) // using floor for this since you are unable to get half a game
 
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
 
 game += 1
 shoes = 0.5(shoes) // div by 2 would make no sense and make it harder to understand for the coder seeing this
 
+
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
+
+
 
 /* 
   Their money put together would be f
 */
-
 
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
 
