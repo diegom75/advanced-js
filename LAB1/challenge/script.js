@@ -34,7 +34,7 @@ let shoesBought = Math.floor(twinsCut / shoes)
 
 // 5. How many more games can they buy if they put their money together compared to if they had bought games on their own?
 
-let gamesBought = Math.floor(cut / game)
+let gamesBought = Math.floor(cut / game); 
 
 // 6. Print out the three siblings' names. "The three siblings are __, __, and ___."
 
