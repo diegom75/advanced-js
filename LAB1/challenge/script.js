@@ -54,8 +54,13 @@ console.log(sibling3.toLowerCase());
 
 // 10. Use console.log() and a built-in method to print out Ricardo's name, but with all the instances of the letter a removed or deleted.
 
-let ricardo1 = 
+let ricardo = sibling3
 
+    let tempArray = this.split(ricardo); // convert to an array
+    tempArray.splice(i - 1 , 1); // remove 1 element from the array (adjusting for non-zero-indexed counts)
+    return temp.join('0'); 
+
+console.log(ricardo);
 
 // 11. Use console.log() and a built-in method to print out "De La Rosa"
 
