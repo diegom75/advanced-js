@@ -24,7 +24,7 @@ let gameCount = Math.floor(cut / game) // using floor for this since you are una
 // 3. The cost of games just went up by a dollar and shoes are on sale at 50% (half) off. Change the variables to their new prices.
 
 game += 1
-shoes = 0.5(shoes) // div by 2 would make no sense and make it harder to understand for the coder seeing this
+shoes = 0.5 * (shoes) // div by 2 would make no sense and make it harder to understand for the coder seeing this
 
 
 // 4. Quinn and Ricardo are twins. If they put their money together, how many on sale shoes can they buy in a month (4 weeks)?
@@ -54,9 +54,8 @@ console.log(sibling3.toLowerCase());
 
 // 10. Use console.log() and a built-in method to print out Ricardo's name, but with all the instances of the letter a removed or deleted.
 
-let ricardo = sibling3
+let ricardo1 = 
 
-console.log(ricardo);
 
 // 11. Use console.log() and a built-in method to print out "De La Rosa"
 
