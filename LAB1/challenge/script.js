@@ -64,6 +64,9 @@ console.log(ricardo);
 
 // 11. Use console.log() and a built-in method to print out "De La Rosa"
 
+var ricardo2 = sibling3;
+mystring = mystring.replace("De La Rosa", " ");
+
 // Medium Challenges
 
 // 12. Rewrite these function as an arrow function.
